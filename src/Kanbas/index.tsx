@@ -1,28 +1,23 @@
-import { Navigate, Route, Routes } from "react-router";
-import Courses from "./Courses";
 import Dashboard from "./Dashboard";
 import KanbasNavigation from "./Navigation";
-
+import "./styles.css";
+import { Routes, Route, Navigate } from "react-router";
+import Courses from "./Courses";
 export default function Kanbas() {
   return (
-    <div id="wd-kanbas">
-      <table>
-        <tr>
-          <td valign="top">
-            <KanbasNavigation />
-          </td>
-          <td valign="top">
-            <Routes>
-              <Route path="/" element={<Navigate to="Dashboard" />} />
-              <Route path="/Account" element={<h2>Account</h2>} />
-              <Route path="/Dashboard" element={<Dashboard />} />
-              <Route path="/Courses/:id/*" element={<Courses />} />
-              <Route path="/Calendar" element={<h2>Calendar</h2>} />
-              <Route path="/Inbox" element={<h2>Inbox</h2>} />
-            </Routes>
-          </td>
-        </tr>
-      </table>
+  <div id="wd-kanbas" className="h-100">
+  <div className="d-flex h-100">
+    <div className="d-none d-md-block bg-black" style = {{marginRight:"25px"}}>
+      <KanbasNavigation />
     </div>
-  );
-}
+    <div className="flex-fill">
+      <Routes>
+        <Route path="/" element={<Navigate to="Dashboard" />} />
+        <Route path="Dashboard" element={<Dashboard />} />
+        <Route path="Courses/:cid/*" element={<Courses />} />
+      </Routes>
+    </div>
+  </div>
+</div>
+
+);}
