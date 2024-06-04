@@ -183,7 +183,7 @@ export default function Dashboard() {
           </div>
           <div className="wd-dashboard-course col" style={{ width: "270px", marginRight: "35px", marginBottom: "35px" }}>
             <div className="card">
-              <img src="/images/reactjs.jpg" />
+              <img src="/images/ang.jpg" />
               <div className="card-body">
                 <a
                   className="wd-dashboard-course-link"
@@ -194,7 +194,7 @@ export default function Dashboard() {
                     fontWeight: "bold",
                   }}
                 >
-                  CS1234 React JS
+                  CS1234 Operating Systems
                 </a>
                 <p className="wd-dashboard-course-title card-text">
                   Full Stack software developer
