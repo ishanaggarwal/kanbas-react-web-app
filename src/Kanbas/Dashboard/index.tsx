@@ -1,217 +1,41 @@
-import "./index.css";
-export default function Dashboard() {
+import CoursesNavigation from "./Navigation";
+import { Navigate, Route, Routes } from "react-router";
+import Modules from "./Modules";
+import Grades from "./Grades";
+import Assignments from "./Assignments";
+import { FaAlignJustify } from "react-icons/fa"; // Had to add this 
+import AssignmentEditor from "./Assignments/Editor";
+import Home from "./Home";
+import "./styles.css"
+export default function Courses() {
   return (
-    <div id="wd-dashboard" >
-      <div style ={{marginLeft:"10px"}} >
-      <h1 id="wd-dashboard-title">Dashboard</h1> <hr />
+    <div id="wd-courses">
+   
+   <div className="row-layout text-danger my-2">
+  <div className="col-auto me-2">
+    <FaAlignJustify className="fs-3 mb-1" />
+  </div>
+  <div className="col">
+    <div className="font-style">Course 1234</div>
+  </div>
+</div>
+<hr />
+
+    <div className="d-flex">
+      <div className="d-none d-md-block">
+        <CoursesNavigation />
       </div>
-      <div style ={{marginLeft:"25px"}}>
-      <h2 id="wd-dashboard-published"> Published Courses (12)</h2> <hr />
-      <div id="wd-dashboard-courses" className="row row-cols-1 row-cols-md-4 g-4" style ={{marginTop:"15px"}}>
-          <div className="wd-dashboard-course col" style={{ width: "270px", marginRight: "35px", marginBottom: "35px" }}>
-            <div className="card">
-              <img src="/images/reactjs.jpg" />
-              <div className="card-body">
-                <a
-                  className="wd-dashboard-course-link"
-                  href="#/Kanbas/Courses/1234/Home"
-                  style={{
-                    textDecoration: "none",
-                    color: "navy",
-                    fontWeight: "bold",
-                  }}
-                >
-                  CS1234 React JS
-                </a>
-                <p className="wd-dashboard-course-title card-text">
-                  Full Stack software developer
-                </p>
-                <a
-                  href="#/Kanbas/Courses/1234/Home"
-                  className="btn btn-primary"
-                >
-                  {" "}
-                  Go{" "}
-                </a>
-              </div>
-            </div>
-           
-          </div>
-          <div className="wd-dashboard-course col" style={{ width: "270px", marginRight: "35px", marginBottom: "35px" }}>
-            <div className="card">
-              <img src="/images/reactjs.jpg" />
-              <div className="card-body">
-                <a
-                  className="wd-dashboard-course-link"
-                  href="#/Kanbas/Courses/1234/Home"
-                  style={{
-                    textDecoration: "none",
-                    color: "navy",
-                    fontWeight: "bold",
-                  }}
-                >
-                  CS1234 React JS
-                </a>
-                <p className="wd-dashboard-course-title card-text">
-                  Full Stack software developer
-                </p>
-                <a
-                  href="#/Kanbas/Courses/1234/Home"
-                  className="btn btn-primary"
-                >
-                  {" "}
-                  Go{" "}
-                </a>
-              </div>
-            </div>
-           
-          </div>
-          <div className="wd-dashboard-course col" style={{ width: "270px", marginRight: "35px", marginBottom: "35px" }}>
-            <div className="card">
-              <img src="/images/reactjs.jpg" />
-              <div className="card-body">
-                <a
-                  className="wd-dashboard-course-link"
-                  href="#/Kanbas/Courses/1234/Home"
-                  style={{
-                    textDecoration: "none",
-                    color: "navy",
-                    fontWeight: "bold",
-                  }}
-                >
-                  CS1234 React JS
-                </a>
-                <p className="wd-dashboard-course-title card-text">
-                  Full Stack software developer
-                </p>
-                <a
-                  href="#/Kanbas/Courses/1234/Home"
-                  className="btn btn-primary"
-                >
-                  {" "}
-                  Go{" "}
-                </a>
-              </div>
-            </div>
-           
-          </div>
-          <div className="wd-dashboard-course col" style={{ width: "270px", marginRight: "35px", marginBottom: "35px" }}>
-            <div className="card">
-              <img src="/images/reactjs.jpg" />
-              <div className="card-body">
-                <a
-                  className="wd-dashboard-course-link"
-                  href="#/Kanbas/Courses/1234/Home"
-                  style={{
-                    textDecoration: "none",
-                    color: "navy",
-                    fontWeight: "bold",
-                  }}
-                >
-                  CS1234 React JS
-                </a>
-                <p className="wd-dashboard-course-title card-text">
-                  Full Stack software developer
-                </p>
-                <a
-                  href="#/Kanbas/Courses/1234/Home"
-                  className="btn btn-primary"
-                >
-                  {" "}
-                  Go{" "}
-                </a>
-              </div>
-            </div>
-           
-          </div>
-          <div className="wd-dashboard-course col" style={{ width: "270px", marginRight: "35px", marginBottom: "35px"}}>
-            <div className="card">
-              <img src="/images/reactjs.jpg" />
-              <div className="card-body">
-                <a
-                  className="wd-dashboard-course-link"
-                  href="#/Kanbas/Courses/1234/Home"
-                  style={{
-                    textDecoration: "none",
-                    color: "navy",
-                    fontWeight: "bold",
-                  }}
-                >
-                  CS1234 React JS
-                </a>
-                <p className="wd-dashboard-course-title card-text">
-                  Full Stack software developer
-                </p>
-                <a
-                  href="#/Kanbas/Courses/1234/Home"
-                  className="btn btn-primary"
-                >
-                  {" "}
-                  Go{" "}
-                </a>
-              </div>
-            </div>
-          </div>
-          <div className="wd-dashboard-course col" style={{ width: "270px", marginRight: "35px", marginBottom: "35px" }}>
-            <div className="card">
-              <img src="/images/reactjs.jpg" />
-              <div className="card-body">
-                <a
-                  className="wd-dashboard-course-link"
-                  href="#/Kanbas/Courses/1234/Home"
-                  style={{
-                    textDecoration: "none",
-                    color: "navy",
-                    fontWeight: "bold",
-                  }}
-                >
-                  CS1234 React JS
-                </a>
-                <p className="wd-dashboard-course-title card-text">
-                  Full Stack software developer
-                </p>
-                <a
-                  href="#/Kanbas/Courses/1234/Home"
-                  className="btn btn-primary"
-                >
-                  {" "}
-                  Go{" "}
-                </a>
-              </div>
-            </div>
-           
-          </div>
-          <div className="wd-dashboard-course col" style={{ width: "270px", marginRight: "35px", marginBottom: "35px" }}>
-            <div className="card">
-              <img src="/images/reactjs.jpg" />
-              <div className="card-body">
-                <a
-                  className="wd-dashboard-course-link"
-                  href="#/Kanbas/Courses/1234/Home"
-                  style={{
-                    textDecoration: "none",
-                    color: "navy",
-                    fontWeight: "bold",
-                  }}
-                >
-                  CS1234 React JS
-                </a>
-                <p className="wd-dashboard-course-title card-text">
-                  Full Stack software developer
-                </p>
-                <a
-                  href="#/Kanbas/Courses/1234/Home"
-                  className="btn btn-primary"
-                >
-                  {" "}
-                  Go{" "}
-                </a>
-              </div>
-            </div>
-           
-          </div>
-        </div>
-        </div>
+      <div className="flex-fill">
+  
+        <Routes>
+          <Route path="Home" element={<Home />} />
+          <Route path="Modules" element={<Modules />} />
+          <Route path="Assignments" element={<Assignments />} />
+          <Route path="Assignments/:aid" element={<AssignmentEditor />} />
+          <Route path="Grades" element={<Grades />} />
+        </Routes>
+      </div>
     </div>
-  );
-}
+  </div>
+  
+);}
