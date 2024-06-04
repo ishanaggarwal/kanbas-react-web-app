@@ -50,7 +50,7 @@ export default function Dashboard() {
                     fontWeight: "bold",
                   }}
                 >
-                  CS5200 Pdp
+                  CS5010 Pdp
                 </a>
                 <p className="wd-dashboard-course-title card-text">
                   Full Stack software developer
@@ -68,7 +68,7 @@ export default function Dashboard() {
           </div>
           <div className="wd-dashboard-course col" style={{ width: "270px", marginRight: "35px", marginBottom: "35px" }}>
             <div className="card">
-              <img src="/images/reactjs.jpg" />
+              <img src="/images/ang.jpg" />
               <div className="card-body">
                 <a
                   className="wd-dashboard-course-link"
@@ -79,7 +79,7 @@ export default function Dashboard() {
                     fontWeight: "bold",
                   }}
                 >
-                  CS1234 React JS
+                  CS5610 Angular JS
                 </a>
                 <p className="wd-dashboard-course-title card-text">
                   Full Stack software developer
@@ -97,7 +97,7 @@ export default function Dashboard() {
           </div>
           <div className="wd-dashboard-course col" style={{ width: "270px", marginRight: "35px", marginBottom: "35px" }}>
             <div className="card">
-              <img src="/images/reactjs.jpg" />
+              <img src="/images/webd.jpg" />
               <div className="card-body">
                 <a
                   className="wd-dashboard-course-link"
@@ -108,7 +108,7 @@ export default function Dashboard() {
                     fontWeight: "bold",
                   }}
                 >
-                  CS1234 React JS
+                  CS4550 Web Development
                 </a>
                 <p className="wd-dashboard-course-title card-text">
                   Full Stack software developer
