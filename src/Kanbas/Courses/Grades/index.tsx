@@ -55,7 +55,7 @@ export default function Grades() {
             <tr>
               <td className="text-danger">
               <div className="ms-2">
-                Jane Adams
+                Jannet Van Dyne
                 </div>
                 </td>
               <td className="text-center">100%</td>
@@ -66,7 +66,7 @@ export default function Grades() {
             <tr>
               <td className="text-danger">
               <div className="ms-2">
-                Christina Allen
+                Rhea Bawa
                 </div>
                 </td>
               <td className="text-center">100%</td>
@@ -77,7 +77,7 @@ export default function Grades() {
             <tr>
               <td className="text-danger">
               <div className="ms-2">
-                Samreen Ansari
+                Aneri Arora
                 </div>
                 </td>
               <td className="text-center">100%</td>
@@ -88,7 +88,7 @@ export default function Grades() {
             <tr>
               <td className="text-danger">
               <div className="ms-2">
-                Han Bao
+                Ganesh Pramesh
                 </div>
                 </td>
               <td className="text-center">100%</td>
@@ -99,7 +99,7 @@ export default function Grades() {
             <tr>
               <td className="text-danger">
               <div className="ms-2">
-                Mahi Sai Srinivas Bobbili
+                Antonio Ray
                 </div>
                 </td>
               <td className="text-center">100%</td>
@@ -110,7 +110,7 @@ export default function Grades() {
             <tr>
               <td className="text-danger">
               <div className="ms-2">
-                Siran Cao
+                Aubree Wayne
                 </div>
                 </td>
               <td className="text-center">100%</td>
@@ -121,7 +121,7 @@ export default function Grades() {
             <tr>
               <td className="text-danger">
               <div className="ms-2">
-                Caroline Brown
+                Kelly Brook
                 </div>
                 </td>
               <td className="text-center">100%</td>
