@@ -80,18 +80,18 @@ export default function Grades() {
               <td className="text-center">100%</td>
             </tr>
             <tr>
-              <td className="text-danger">Kathryn Chalmers</td>
+              <td className="text-danger">Riley Richards</td>
               <td className="text-center">100%</td>
               <td className="text-center">100%</td>
               <td className="text-center">100%</td>
               <td className="text-center">100%</td>
             </tr>
             <tr>
-              <td className="text-danger">Chih-Yang Chen</td>
+              <td className="text-danger">Kelly Rubric</td>
               <td className="text-center">100%</td>
-              <td className="text-center">81.67%</td>
-              <td className="text-center">79.93%</td>
-              <td className="text-center">54.66%</td>
+              <td className="text-center">82.69%</td>
+              <td className="text-center">78.96%</td>
+              <td className="text-center">55.68%</td>
             </tr>
           </tbody>
         </table>
