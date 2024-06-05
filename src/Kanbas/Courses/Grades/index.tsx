@@ -59,9 +59,9 @@ export default function Grades() {
                 </div>
                 </td>
               <td className="text-center">100%</td>
-              <td className="text-center">96.67%</td>
-              <td className="text-center">92.18%</td>
-              <td className="text-center">66.22%</td>
+              <td className="text-center">98%</td>
+              <td className="text-center">100%</td>
+              <td className="text-center">88%</td>
             </tr>
             <tr>
               <td className="text-danger">
@@ -103,8 +103,8 @@ export default function Grades() {
                 </div>
                 </td>
               <td className="text-center">100%</td>
-              <td className="text-center">96.67%</td>
-              <td className="text-center">99.37%</td>
+              <td className="text-center">95%</td>
+              <td className="text-center">99%</td>
               <td className="text-center">100%</td>
             </tr>
             <tr>
@@ -124,9 +124,9 @@ export default function Grades() {
                 Kelly Brook
                 </div>
                 </td>
+              <td className="text-center">98%</td>
               <td className="text-center">100%</td>
-              <td className="text-center">100%</td>
-              <td className="text-center">100%</td>
+              <td className="text-center">96%</td>
               <td className="text-center">100%</td>
             </tr>
          
