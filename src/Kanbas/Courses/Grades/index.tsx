@@ -2,7 +2,6 @@ import GradeFiles from "./GradeFiles";
 import Searchbars from "./Searchbars";
 import { BsFunnel } from "react-icons/bs";
 
-import "./styles.css";
 export default function Grades() {
   return (
     <div className="p-5 mx-5">
@@ -17,7 +16,7 @@ export default function Grades() {
       <div className="mb-3">
         <button
           id="wd-import-btn"
-          className="btn btn-lg me-1  square-button"
+          className="btn btn-lg me-1 grayed square-button"
         >
           <BsFunnel className="position-relative me-2" />
           Apply Filters
@@ -81,14 +80,14 @@ export default function Grades() {
               <td className="text-center">100%</td>
             </tr>
             <tr>
-              <td className="text-danger">Aubree Charmer</td>
+              <td className="text-danger">Kathryn Chalmers</td>
               <td className="text-center">100%</td>
               <td className="text-center">100%</td>
               <td className="text-center">100%</td>
               <td className="text-center">100%</td>
             </tr>
             <tr>
-              <td className="text-danger">Kelly Wright</td>
+              <td className="text-danger">Chih-Yang Chen</td>
               <td className="text-center">100%</td>
               <td className="text-center">81.67%</td>
               <td className="text-center">79.93%</td>
