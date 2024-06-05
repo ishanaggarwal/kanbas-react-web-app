@@ -38,7 +38,7 @@ export default function Dashboard() {
           </div>
           <div className="wd-dashboard-course col" style={{ width: "300px"}}>
             <div className="card">
-              <img src="/images/reactjs.jpg" />
+              <img src="/images/blue.jpg" />
               <div className="card-body">
                 <a
                   className="wd-dashboard-course-link"
@@ -49,7 +49,7 @@ export default function Dashboard() {
                     fontWeight: "bold",
                   }}
                 >
-                  CS1234 React JS
+                  CS5200 Web Developement
                 </a>
                 <p className="wd-dashboard-course-title card-text">
                   Full Stack software developer
@@ -67,7 +67,7 @@ export default function Dashboard() {
           </div>
           <div className="wd-dashboard-course col" style={{ width: "300px"}} >
             <div className="card">
-              <img src="/images/reactjs.jpg" />
+              <img src="/images/grey.jpg" />
               <div className="card-body">
                 <a
                   className="wd-dashboard-course-link"
@@ -78,7 +78,7 @@ export default function Dashboard() {
                     fontWeight: "bold",
                   }}
                 >
-                  CS1234 React JS
+                  CS5300 Operating Systems
                 </a>
                 <p className="wd-dashboard-course-title card-text">
                   Full Stack software developer
@@ -96,7 +96,7 @@ export default function Dashboard() {
           </div>
           <div className="wd-dashboard-course col" style={{ width: "300px"}}>
             <div className="card">
-              <img src="/images/reactjs.jpg" />
+              <img src="/images/red.jpg" />
               <div className="card-body">
                 <a
                   className="wd-dashboard-course-link"
@@ -107,7 +107,7 @@ export default function Dashboard() {
                     fontWeight: "bold",
                   }}
                 >
-                  CS1234 React JS
+                  CS5400 Angular JS
                 </a>
                 <p className="wd-dashboard-course-title card-text">
                   Full Stack software developer
@@ -125,7 +125,7 @@ export default function Dashboard() {
           </div>
           <div className="wd-dashboard-course col" style={{width: "300px"}}>
             <div className="card">
-              <img src="/images/reactjs.jpg" />
+              <img src="/images/grey.jpg" />
               <div className="card-body">
                 <a
                   className="wd-dashboard-course-link"
@@ -136,7 +136,7 @@ export default function Dashboard() {
                     fontWeight: "bold",
                   }}
                 >
-                  CS1234 React JS
+                  CS1234 Database Systems
                 </a>
                 <p className="wd-dashboard-course-title card-text">
                   Full Stack software developer
@@ -153,7 +153,7 @@ export default function Dashboard() {
           </div>
           <div className="wd-dashboard-course col" style={{ width: "300px"}} >
             <div className="card">
-              <img src="/images/reactjs.jpg" />
+              <img src="/images/red.jpg" />
               <div className="card-body">
                 <a
                   className="wd-dashboard-course-link"
@@ -164,7 +164,7 @@ export default function Dashboard() {
                     fontWeight: "bold",
                   }}
                 >
-                  CS1234 React JS
+                  CS1234 Computer Vision
                 </a>
                 <p className="wd-dashboard-course-title card-text">
                   Full Stack software developer
@@ -182,7 +182,7 @@ export default function Dashboard() {
           </div>
           <div className="wd-dashboard-course col" style={{ width: "300px" }} >
             <div className="card">
-              <img src="/images/reactjs.jpg" />
+              <img src="/images/blue.jpg" />
               <div className="card-body">
                 <a
                   className="wd-dashboard-course-link"
@@ -193,7 +193,7 @@ export default function Dashboard() {
                     fontWeight: "bold",
                   }}
                 >
-                  CS1234 React JS
+                  CS5500 Program Design
                 </a>
                 <p className="wd-dashboard-course-title card-text">
                   Full Stack software developer
