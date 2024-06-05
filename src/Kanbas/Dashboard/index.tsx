@@ -1,4 +1,3 @@
-
 export default function Dashboard() {
   return (
     <div id="wd-dashboard" >
@@ -8,7 +7,7 @@ export default function Dashboard() {
       <div className = "ms-5">
       <h2 id="wd-dashboard-published"> Published Courses (12)</h2> <hr />
       <div id="wd-dashboard-courses" className="row row-cols-1 row-cols-md-4 g-4 mt-2" >
-          <div className="wd-dashboard-course col" style={{    width: "270px", marginRight: "35px",marginBottom: "35px"}}>
+          <div className="wd-dashboard-course col" style = {{ width: "300px"}}>
             <div className="card">
               <img src="/images/reactjs.jpg" />
               <div className="card-body">
@@ -37,9 +36,9 @@ export default function Dashboard() {
             </div>
            
           </div>
-          <div className="wd-dashboard-course col" style={{    width: "270px", marginRight: "35px",marginBottom: "35px"}}>
+          <div className="wd-dashboard-course col" style={{ width: "300px"}}>
             <div className="card">
-              <img src="/images/blue.jpg" />
+              <img src="/images/reactjs.jpg" />
               <div className="card-body">
                 <a
                   className="wd-dashboard-course-link"
@@ -50,7 +49,7 @@ export default function Dashboard() {
                     fontWeight: "bold",
                   }}
                 >
-                  CS2341 Web Development
+                  CS1234 React JS
                 </a>
                 <p className="wd-dashboard-course-title card-text">
                   Full Stack software developer
@@ -66,9 +65,9 @@ export default function Dashboard() {
             </div>
            
           </div>
-          <div className="wd-dashboard-course col" style={{    width: "270px", marginRight: "35px",marginBottom: "35px"}} >
+          <div className="wd-dashboard-course col" style={{ width: "300px"}} >
             <div className="card">
-              <img src="/images/grey.jpg" />
+              <img src="/images/reactjs.jpg" />
               <div className="card-body">
                 <a
                   className="wd-dashboard-course-link"
@@ -79,7 +78,7 @@ export default function Dashboard() {
                     fontWeight: "bold",
                   }}
                 >
-                  CS3412 Operating Systems
+                  CS1234 React JS
                 </a>
                 <p className="wd-dashboard-course-title card-text">
                   Full Stack software developer
@@ -95,9 +94,9 @@ export default function Dashboard() {
             </div>
            
           </div>
-          <div className="wd-dashboard-course col" style={{    width: "270px", marginRight: "35px",marginBottom: "35px"}}>
+          <div className="wd-dashboard-course col" style={{ width: "300px"}}>
             <div className="card">
-              <img src="/images/red.jpg" />
+              <img src="/images/reactjs.jpg" />
               <div className="card-body">
                 <a
                   className="wd-dashboard-course-link"
@@ -108,7 +107,7 @@ export default function Dashboard() {
                     fontWeight: "bold",
                   }}
                 >
-                  CS4300 Database Management
+                  CS1234 React JS
                 </a>
                 <p className="wd-dashboard-course-title card-text">
                   Full Stack software developer
@@ -124,9 +123,9 @@ export default function Dashboard() {
             </div>
            
           </div>
-          <div className="wd-dashboard-course col" style={{    width: "270px", marginRight: "35px",marginBottom: "35px"}}>
+          <div className="wd-dashboard-course col" style={{width: "300px"}}>
             <div className="card">
-              <img src="/images/grey.jpg" />
+              <img src="/images/reactjs.jpg" />
               <div className="card-body">
                 <a
                   className="wd-dashboard-course-link"
@@ -137,7 +136,7 @@ export default function Dashboard() {
                     fontWeight: "bold",
                   }}
                 >
-                  CS5341 Algorithms
+                  CS1234 React JS
                 </a>
                 <p className="wd-dashboard-course-title card-text">
                   Full Stack software developer
@@ -152,9 +151,9 @@ export default function Dashboard() {
               </div>
             </div>
           </div>
-          <div className="wd-dashboard-course col" style={{    width: "270px", marginRight: "35px",marginBottom: "35px"}} >
+          <div className="wd-dashboard-course col" style={{ width: "300px"}} >
             <div className="card">
-              <img src="/images/red.jpg" />
+              <img src="/images/reactjs.jpg" />
               <div className="card-body">
                 <a
                   className="wd-dashboard-course-link"
@@ -165,7 +164,7 @@ export default function Dashboard() {
                     fontWeight: "bold",
                   }}
                 >
-                  CS6100 Project Managment 
+                  CS1234 React JS
                 </a>
                 <p className="wd-dashboard-course-title card-text">
                   Full Stack software developer
@@ -181,9 +180,9 @@ export default function Dashboard() {
             </div>
            
           </div>
-          <div className="wd-dashboard-course col" style={{    width: "270px", marginRight: "35px",marginBottom: "35px"}} >
+          <div className="wd-dashboard-course col" style={{ width: "300px" }} >
             <div className="card">
-              <img src="/images/blue.jpg" />
+              <img src="/images/reactjs.jpg" />
               <div className="card-body">
                 <a
                   className="wd-dashboard-course-link"
@@ -194,7 +193,7 @@ export default function Dashboard() {
                     fontWeight: "bold",
                   }}
                 >
-                  CS5400 Computer Vision
+                  CS1234 React JS
                 </a>
                 <p className="wd-dashboard-course-title card-text">
                   Full Stack software developer
