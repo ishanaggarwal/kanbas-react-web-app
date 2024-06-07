@@ -114,7 +114,7 @@ export default function Grades() {
                 </div>
                 </td>
               <td className="text-center">100%</td>
-              <td className="text-center">100%</td>
+              <td className="text-center"><input type="text" placeholder="98%" className="form-control text-center" /></td>
               <td className="text-center">100%</td>
               <td className="text-center">100%</td>
             </tr>
