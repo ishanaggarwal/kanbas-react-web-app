@@ -104,48 +104,48 @@
     },
     {
       "_id": "RS110",
-      "name": "Principles of Democratic Education",
+      "name": "Boston Tea Party",
       "number": "EDU201",
       "startDate": "2023-01-10",
       "endDate": "2023-05-15",
       "department": "Education",
       "credits": 3,
-      "description": "This course examines the foundations of democratic education, emphasizing the role of education in fostering civic responsibility, critical thinking, and social equality. It explores historical and contemporary models of democratic schooling, the importance of participatory learning, and the development of educational systems that reflect democratic values. Students will engage in discussions on the challenges and opportunities of implementing democratic principles in diverse educational settings.",
-      "images": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSzxQqnl_OLS_y4Kr21tM7bQTzzxob-A-O8BygntfaOydSSQcv5srqTTE2OLmW0"
+      "description": "This course examines the foundations of boston tea party and the traditions connected to this event. Students will engage in discussions on the challenges and opportunities of participating in this event in current setting",
+      "images": "images/bt.jpg"
     },
     {
       "_id": "RS111",
-      "name": "Philosophy of Independence and Liberation",
+      "name": "Meteor JS",
       "number": "HIS301",
       "startDate": "2023-01-10",
       "endDate": "2023-05-15",
       "department": "History",
       "credits": 4,
-      "description": "This course provides an in-depth analysis of the philosophical underpinnings of independence and liberation movements, with a focus on Latin American history. It covers the ideologies that fueled the fight for independence, the impact of Enlightenment thought, and the contributions of key figures like Simón Bolívar. The course encourages students to critically examine the concepts of freedom, autonomy, and nation-building in the context of historical and contemporary struggles for liberation.",
-      "images": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRqPZA5Vqn1YD9tx0AwvE9fPbxoYPKPhWH86phXaJEzbozNvcuvs3ApRgEJDzTP"
+      "description": "This course provides an in-depth analysis of the Meteor JS framework with a focus on web development. The course encourages students to critically examine the concepts of web dev.",
+      "images": "images/grey.jpg"
     },
     {
       "_id": "RS112",
-      "name": "Innovations in Early 19th Century Education",
+      "name": "Quantum Computing",
       "number": "EDU303",
       "startDate": "2023-01-10",
       "endDate": "2023-05-15",
       "department": "Education",
       "credits": 3,
-      "description": "Focusing on the early 19th century, this course explores innovative educational practices and theories of the time. It highlights the work of leading educational reformers, including Simon Rodríguez, and their contributions to modern pedagogy. Students will study the evolution of educational methods, the integration of practical and theoretical knowledge, and the role of education in social change. The course includes a critical assessment of the lasting impacts of these early innovations on contemporary education systems.",
-      "images": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTXdMRcYHAlHCcjiqP6UyF7kVRQLQOp_mj7ITsZjYF2zWN1d5Dfi4xhNs0EbdFb"
+      "description": "Focusing on the early quantum computing technologies, this course explores innovative educational practices and theories of the time. Students will study the evolution of educational methods, the integration of practical and theoretical knowledge, and the role of quantum computing.",
+      "images": "images/qt.jpg"
     },
     {
       "_id": "RS113",
-      "name": "Foundations of Christian Ethics",
+      "name": "Virtual Reality",
       "number": "THEO101",
       "startDate": "2023-01-10",
       "endDate": "2023-05-15",
       "department": "Theology",
       "credits": 3,
-      "description": "This course explores the core principles of Christian ethics as derived from biblical texts and theological traditions. It covers topics such as moral decision-making, virtues and vices, and the role of faith in ethical living. Students will examine contemporary moral issues through the lens of Christian ethics, learning to apply these principles in various real-life contexts. The course encourages critical thinking and compassionate action guided by Christian values.",
+      "description": "This course explores the core principles of Virtual Reality. Students will examine devlopment techniques through the lens of Technical means, learning to apply these principles in various real-life contexts. The course encourages critical thinking.",
       "author": "65500111ea7ead465908d1fa",
-      "images": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRohZLtT4F5QbPThkLX3u0ktPkznbfErjzo15I0kxamHPNdVXoPbCWsvjADOWbt"
+      "images": "images/vr.jpg"
     },
     {
       "_id": "RS114",
@@ -161,15 +161,15 @@
     },
     {
       "_id": "RS115",
-      "name": "Leadership and Service in Christian Communities",
+      "name": "Database Management",
       "number": "MIN301",
       "startDate": "2023-01-10",
       "endDate": "2023-05-15",
       "department": "Ministry",
       "credits": 3,
-      "description": "This course offers insights into effective leadership and service within Christian communities. Drawing on biblical teachings and the example of Saint Peter, it addresses the spiritual, ethical, and practical aspects of Christian leadership. Topics include pastoral care, community building, servant leadership, and the stewardship of church resources. Students will engage in practical exercises and discussions, preparing them for various roles in ministry and community service.",
+      "description": "This course offers insights into Database Management Systems. Topics include sql, mongodb and the er diagrams. Students will engage in practical exercises and discussions, preparing them for various roles in database administration.",
       "author": "65500111ea7ead465908d1fa",
-      "images": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQpFnWcjOSWSIFTOmYQmX3RAXgSDr5yG4819Nv5IaSLJgQEMKauV-BxgeflLelk"
+      "images": "images/db.jpg"
     },
     {
       "_id": "RS116",
