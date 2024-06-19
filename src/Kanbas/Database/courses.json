@@ -20,7 +20,7 @@
       "department": "D123",
       "credits": 3,
       "description": "This course offers a comprehensive exploration of aerodynamics, focusing on the principles and applications of airflow and its effects on flying objects. Topics include fluid dynamics, airfoil design, lift and drag forces, and the aerodynamic considerations in aircraft design. The course blends theoretical learning with practical applications, suitable for students pursuing a career in aeronautics or astronautics engineering.",
-      "images": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSVw2PGQ064AmSA_GDpgTc3nF_3aXe2NkiYL4vxcX9QIC-nvZ_Yw6_KW9z_bg1H"
+      "images": "aero.jpg"
     },
     {
       "_id": "RS103",
@@ -31,7 +31,7 @@
       "department": "D123",
       "credits": 4,
       "description": "This course delves into the principles and practices of spacecraft design, offering students a detailed understanding of the engineering and technology behind spacecraft systems. Key topics include spacecraft structure, propulsion, power systems, thermal control, and payload integration. Emphasizing both theoretical concepts and practical skills, the course prepares students for careers in the space industry, with a focus on innovative design and problem-solving in the context of current and future space missions",
-      "images": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZw6C4kIiEGKROacwnpWCNFxw14w3tgEoOwZckCYXcsUw01JwSsbDyLxNDRfEd"
+      "images": "craft.jpg"
     },
     {
       "_id": "RS104",
