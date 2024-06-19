@@ -68,39 +68,39 @@
     },
     {
       "_id": "RS107",
-      "name": "Ancient Languages and Scripts of Middle-earth",
+      "name": "Web Development",
       "number": "ME101",
       "startDate": "2023-01-10",
       "endDate": "2023-05-15",
       "department": "Languages",
       "credits": 3,
-      "description": "This course offers an exploration of the ancient languages and scripts found throughout Middle-earth, including Elvish (Sindarin and Quenya), Dwarvish (Khuzdul), and the Black Speech of Mordor. Students will learn the historical and cultural contexts of these languages, their linguistic structures, and their usage in various inscriptions and texts. Emphasis is on understanding the philological aspects and the role of language in shaping Middle-earth's history and lore.",
+      "description": "This course offers an exploration of the web technologies and languages including frameworks involved in the course.",
       "author": "654f9ec2ea7ead465908d1e3",
-      "images": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQKwa_OcKjK9oFLxeusPHpAfuVLJf1rFQ22gc5LWhbPYpg9b85jmXt8wkvnmYip"
+      "images": "images/web.jpg"
     },
     {
       "_id": "RS108",
-      "name": "Wizards, Elves, and Men: Inter-species Diplomacy in Middle-earth",
+      "name": "Agriculture",
       "number": "ME102",
       "startDate": "2023-01-10",
       "endDate": "2023-05-15",
       "department": "Political Studies",
       "credits": 4,
-      "description": "This course explores the complex relationships and diplomatic interactions among the different races of Middle-earth: Elves, Men, Dwarves, and Wizards. Topics include the study of historical alliances, conflicts, and the role of leadership and wisdom in maintaining peace. Students will engage in discussions and case studies on key events in Middle-earth's history, such as the Council of Elrond and the War of the Ring, to understand the principles of diplomacy and conflict resolution in a multi-species context.",
+      "description": "This course explores the complex relationships and diplomatic interactions among the different agricultural practices of earth. Students will engage in discussions and case studies on key events in earth's agriculture history.",
       "author": "654f9ec2ea7ead465908d1e3",
-      "images": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT_ju888bu3QY0Mys9q3v01cfi8ayAGelKU0mnaJRXEZcf0k3yf_zAGfXZVfrdh"
+      "images": "images/blue.jpg"
     },
     {
       "_id": "RS109",
-      "name": "History and Practice of Middle-earth Magic",
+      "name": "Alphabet",
       "number": "ME103",
       "startDate": "2023-01-10",
       "endDate": "2023-05-15",
       "department": "Mystical Studies",
       "credits": 4,
-      "description": "This course delves into the mystical and magical aspects of Middle-earth, examining the sources, practitioners, and manifestations of magic. Covering a range of magical beings, including Wizards, Elves, and Ents, as well as artifacts like the Rings of Power and Palantíri, students will learn about the philosophical and ethical dimensions of magic use. The course combines theoretical study with practical insights, offering a unique perspective on the magical forces that shape the events and destinies in the world of Middle-earth.",
+      "description": "This course delves into the history in the making of alphabet, examining the sources, practitioners, and manifestations of its technologies. The course combines theoretical study with practical insights, offering a unique perspective on the decisions involved that led to this event.",
       "author": "654f9ec2ea7ead465908d1e3",
-      "images": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQr033nbf8Hih1qCHR-ZCvk3O1D1bo4Doe-ySkemhDlMxNJj53zOyfgVNbBfH-w"
+      "images": "images/red.jpg"
     },
     {
       "_id": "RS110",
