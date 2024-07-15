@@ -45,6 +45,8 @@ export default function Dashboard(
                       {course.description}
                     </p>
                     <Link to={`/Kanbas/Courses/${course._id}/Home`} className="btn btn-primary">Go</Link>
+
+
                                 <button onClick={(event) => {
                       event.preventDefault();
                       deleteCourse(course._id);
@@ -52,6 +54,14 @@ export default function Dashboard(
                     id="wd-delete-course-click">
                     Delete
             </button>
+            <button id="wd-edit-course-click"
+  onClick={(event) => {
+    event.preventDefault();
+    setCourse(course);
+  }}
+  className="btn btn-warning me-2 float-end" >
+  Edit
+</button>
                   </div>
                 </div>
               </Link>
