@@ -7,6 +7,7 @@ export const signin = async (credentials: any) => {
   return response.data;
 };
 export const profile = async () => {
+    console.log("profile",USERS_API)
   const response = await axiosWithCredentials.post(`${USERS_API}/profile`);
   return response.data;
 };
