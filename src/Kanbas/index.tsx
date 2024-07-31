@@ -8,7 +8,7 @@ import * as client from "./Courses/client";
 import { useEffect, useState } from "react";
 import store from "./store";
 import { Provider } from "react-redux";
-import ProtectedRoute from "./Account/ProtectRoute";
+import ProtectedRoute from "./ProtectRoute";
 
 export default function Kanbas() {
   const [courses, setCourses] = useState<any[]>([]);
