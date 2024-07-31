@@ -50,12 +50,7 @@ export default function TOC() {
       </li>
       <li className="nav-item">
         <a id="wd-github" href="https://github.com/ishanaggarwal/kanbas-node-server-app/tree/a6" className="nav-link">
-          HTTP Server Github
-        </a>
-      </li>
-      <li className="nav-item">
-        <a id="wd-github" href=" https://kanbas-node-server-app-5q03.onrender.com" className="nav-link">
-        Root of the server (Render)
+          Node Server Github
         </a>
       </li>
     </ul>
